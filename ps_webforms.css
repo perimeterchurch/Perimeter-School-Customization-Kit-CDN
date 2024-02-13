@@ -1,0 +1,89 @@
+body {
+	font-family:Georgia;
+	color:#000000;
+	font-size:12pt;
+	text-align:justify;
+}
+	
+div.c1 {
+	padding: 0 12px;
+	margin:auto;
+	max-width:8.5in;
+}
+	
+div.h1 {
+	font-family: futura-pt;
+	color: #385675;
+	font-size: 1.5rem;
+}
+
+div.t {
+	border: solid 1px;
+}	
+
+font.blue {
+	color:#0000a0;
+}
+	
+font.grey {
+	color:#808080;
+	font-weight: bold;
+}	
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}	
+td {
+	font-size:10pt;
+	padding: 0 3px;
+}	
+table.sig{
+	width:1px;
+}
+
+.f1 {
+	float:left;
+	margin-left:20px;
+}	
+
+.clear {
+	clear:both;
+}
+.left {
+	text-align:left;
+}
+.center {
+	text-align:center;
+}
+.right {
+	text-align:right;
+}
+.justify {
+	text-align:justify;
+}
+.dataLabel {
+	min-width:8em;
+	padding-right:2px;
+	text-align:right;
+	display:inline-block;
+	white-space: nowrap;
+}
+.dataInput {
+	display:inline-block;
+	white-space: nowrap;
+}
+.dataGroup {
+	display:inline-block;
+	float:left;
+}
+
+@media (max-width: 414px){	
+
+}
+
+@media (max-width: 375px){
+
+}
+@media (max-width: 1024px){
+
+}
