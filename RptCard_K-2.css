@@ -1,0 +1,269 @@
+@media print {
+	body {
+		font-family:Cambria,serif;
+		font-size:1em;
+		color:#484848 ;
+		margin:1em 1em;
+	}
+}
+@media screen {
+	body {
+		font-family:Calibri,sans-serif;
+		font-size:1em;
+		color:#484848 ;
+		margin:1em 1em;
+	}
+}
+.headerLogo  {
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-image:url('https://pcs-ga.client.renweb.com/ftp/pcs-ga/Customization/1202381/Logo_Blue_Accc.png');
+	background-size:231px 150px;
+	height:150px;
+	width:100%;
+	padding-bottom:1em;
+   }
+.placement {
+	padding:0;
+	white-space:nowrap;
+	margin:auto;
+}
+div.nextPage {
+	page-break-before:always;
+}	
+div.clearFloats{
+	clear:both;
+	line-height:1%;
+}
+.rckCode {
+	font-size:1.5em;
+	color:white;
+	background:blue;
+}
+.dataTable{
+	border-collapse:collapse;
+	margin:1em 0 1em 1em;
+	border:.25px solid #cccccc;
+}
+ul.habits {
+	list-style-type:none;
+	padding-left:0;
+}
+.habitdesc{
+	font-size:1em;
+	font-weight:bold;
+	margin:0;
+	letter-spacing:.5pt;
+	line-height:130%;
+	padding:3em 0 1em 0;
+}
+.habitskill{
+	font-size:.9em;
+	font-weight:normal;
+	letter-spacing:0;
+	margin:0;
+	line-height:150%;
+}
+h1{
+	font-size:1.7em;
+	text-align:center;
+	font-variant: small-caps;
+	padding:0;
+	margin:0;
+	background:none;
+	letter-spacing:.1em;
+	line-height:180%;
+}
+h2{
+	line-height:100%;
+	text-align:left;
+	margin:.5em 0;
+}
+h3{
+	text-align:left;
+	margin:.5em 0;
+}
+h4{
+	text-align:left;
+	padding:0 .5em;
+}
+.gradeTable {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	border:1pt solid #cccccc;
+	border-collapse:collapse;
+}
+.reportTitle {
+	font-size:1.2em;
+	font-weight:bold;
+	text-align:center;
+	font-variant: capitalize;
+	padding:0;
+	margin:0;
+	background:none;
+	letter-spacing:.1em;
+	line-height:75%;
+}
+.leftLabel {
+	margin-left:0;
+	text-align:left;
+	line-height: 140%;
+}
+.dataBit {
+	color:rgb(58,102,156);
+	text-align:left;
+	font-weight:bold;
+}
+.dataNarrative {
+	color:rgb(58,102,156);
+	font-size:.9em;
+	text-align:left;
+	padding-left:.5em;
+}
+.summaryTitle {
+	text-align:center;
+	background-color:#E8E8E8;
+	font-size:.9em;
+	font-weight:bold;
+	border:1pt solid #cccccc;
+	border-collapse:collapse;
+}
+.summarySemesterLabel {
+	font-size:.6em;
+	font-weight:bold;
+	font-style:italic;
+}
+.narrative {
+	text-align:left;
+	font-size:1em;
+}
+.relSubject {
+	text-align:left;
+	background-color:#E8E8E8;
+	font-size:1em;
+	font-weight:bold;
+	border:1pt solid #cccccc;
+	border-collapse:collapse;
+}
+.relNarrative {
+	text-align:left;
+	font-style:italic;
+	padding:.3em .5em;
+	border-collapse:collapse;
+	border:1pt solid #cccccc;
+}
+.skillSubject {
+	text-align:center;
+	font-size:1em;
+	font-style:italic;
+	font-weight:bold;
+	border-collapse:collapse;
+}
+.skillName {
+	text-align:left;
+	font-size:.8em;
+	padding-left:.5em;
+	border-collapse:collapse;
+}
+.skillGradeWord {
+	color:rgb(58,102,156);
+	text-align:center;
+	font-size:.8em;
+	border-collapse:collapse;
+}
+.skillGradeCode {
+	color:rgb(58,102,156);
+	text-align:center;
+	font-size:.8em;
+	border-collapse:collapse;
+}
+.h2Comment {
+	border-top:.2pt solid #bbbbbb;
+	border-right:2pt double gray;
+	border-bottom:.2pt solid #bbbbbb;
+	border-left:2pt double gray;
+	text-align:left;
+	font-style:italic;
+	padding:0.3em .5em;
+}
+.rsbLeftBrace {
+	border-top:1pt solid gray;
+	border-right:3pt double gray;
+	border-bottom:1pt solid gray;
+	border-left:5pt solid gray;
+	text-align:justify;
+	font-style:italic;
+	font-size:larger;
+	padding:.5em;
+}
+.lsbLeftBrace {
+	text-align:justify;
+	font-style:italic;
+	font-size:larger;
+	padding:1em 1em 1em 0;
+}
+td {
+	border:1pt solid #CCCCCC;
+	border-collapse:collapse;
+	padding:.2em .2em;
+}
+td.dataNumber {
+	color:rgb(58,102,156);
+	text-align:right;
+	font-size:.9em;
+	border-collapse:collapse;
+	border:1pt solid #cccccc;
+	min-width:2em;
+}
+td.columnLabel {
+	font-size:.7em;
+	text-align:center;
+	font-weight:bold;
+	background-color:#E8E8E8 ;
+	border:1pt solid #cccccc;
+	border-collapse:collapse;
+}
+.colHeader {
+	font-size:.7em;
+	text-align:center;
+	font-weight:bold;
+	background-color:#E8E8E8 ;
+	border:1pt solid #cccccc;
+	border-collapse:collapse;
+}
+td.rowLabel {
+	font-size:.9em;
+	text-align:left;
+	font-weight:bold;
+	padding-right:2em;
+	border-collapse:collapse;
+	border:1pt solid #cccccc;
+}
+.keyTitle {
+	font-size:1em;
+	text-align:center;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+.keySubheading {
+	font-size:.8em;
+	text-align:center;
+}
+.keyContent {
+	font-size:.8em;
+	text-align:left;
+}
+.keyItemLabel {
+	font-size: .8em;
+	text-align:left;
+	font-weight:bold;
+	border:0;
+}
+.keyItem {
+	font-size:.8em;
+	text-align:left;
+	border:0;
+}
+
+	

@@ -1,0 +1,307 @@
+@media print {
+	body {
+		font-family:Cambria,serif;
+		font-size:.9em;
+		color:#484848 ;
+		margin:1em auto;
+		max-width:11in;
+	}
+}
+@media screen {
+	body {
+		font-family:Calibri,sans-serif;
+		font-size:1em;
+		color:#484848 ;
+		margin:1em auto;
+		max-width:11in;
+	}
+}
+.page-break { 
+	display:block;
+	page-break-after:always;
+}
+.headerLogo  {
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-image:url('https://pcs-ga.client.renweb.com/ftp/pcs-ga/Customization/1202381/Logo_Blue_Accc.png');
+	background-size:231px 150px;
+	height:150px;
+	width:100%;
+	margin-top: 2em;
+	margin-bottom: 2em;	
+   }
+.page-top-btn {
+  position: fixed;
+  bottom: 3%;
+  right: 5%;
+  border:0;
+}
+div.clearFloats{
+	clear:both;
+	line-height:1%;
+}
+.rckCode {
+	font-size:1.5em;
+	color:white;
+	background:blue;
+}
+.blankLine {
+	line-height:0px;
+	color:white;
+	background-color:pink;
+}
+h1{
+	font-size:1.7em;
+	text-align:center;
+	font-variant: small-caps;
+	padding:0;
+	margin:0;
+	background:none;
+	letter-spacing:.1em;
+	line-height:180%;
+}
+h2{
+	line-height:100%;
+	text-align:left;
+}
+h3{
+	padding:.5em 0;
+}
+h4{
+	padding:0 .5em;
+}
+.reportTitle {
+	font-size:1.2em;
+	font-weight:bold;
+	text-align:left;
+	padding:0;
+	margin:0;
+	background:none;
+	letter-spacing:.1em;
+	text-align: center;
+/*  font-variant: capitalize; */
+}
+.reportSubTitle {
+	font-size:1em;
+	font-weight:bold;
+	text-align:left;
+	padding:0;
+	margin: 0;
+	background:none;
+	letter-spacing:.1em;
+}
+.gradeTable {
+	border-spacing:0px;
+	width:95%;
+	margin: 0px auto;
+/*	border:1px solid #cccccc;
+	border-collapse:collapse; */
+}
+.studentInfoLabel {
+	margin-left:0;
+	text-align:left;
+	font-style:italic;
+	font-size:1.25em;
+}
+.studentInfo {
+	color:#3a6696;
+	text-align:left;
+	font-weight:bold;
+	font-size:1.25em;
+}
+.dataNarrative {
+	color:#3a669c;
+	text-align:left;
+	font-size:.1em;
+	padding-left:.5em;
+	
+}
+.summaryTitle {
+	text-align:center;
+	background-color:#f7f7f7;
+	font-size:.9em;
+	font-weight:bold;
+	border:1px solid #cccccc;
+	border-collapse:collapse;
+}
+.smallTermLabel {
+	font-size:.6em;
+	font-weight:bold;
+	font-style:italic;
+	padding:0.5em;
+}
+.narrative {
+	text-align:justify;
+	font-size:.9em;
+	color:#3a669c;
+	padding:0.5em;
+}
+.classSubject {
+	text-align:center;
+	background-color:#E4E4E4;
+	font-size:1em;
+	font-weight:bold;
+	border:1px solid #cccccc;
+	padding-left:.2em;
+	border-collapse:collapse;
+}
+.classTeacher {
+	text-align:left;
+	font-size:.7em;
+	font-weight:bold;
+	border:1px solid #cccccc;
+	border-collapse:collapse;
+}
+table.tabTable {
+	border-spacing: 0px;
+/*	border:none;
+	padding:none;
+	margin:none;
+	border-collapse:collapse; */
+}
+
+table.tableAttendance {
+	margin:0 .2em 0 .2em;
+	border:.25px solid #cccccc;
+	float:left;
+	border-collapse:collapse;
+}
+td.tabCell {
+	border:none;
+	padding:none;
+	margin:none;
+}
+td {
+	border:1px solid #CCCCCC;
+/*	border-collapse:collapse; */
+	padding:.1em ;
+}
+td:empty {
+	content:'\00a0';
+}
+td.gradeNumber {
+	color:rgb(58,102,156);
+	text-align:center;
+	font-size:.9em;
+	font-weight:bold;
+	width:2em;
+	border-collapse:collapse;
+	border:1px solid #cccccc;
+}
+td.gradeLetter {
+	color:rgb(58,102,156);
+	text-align:center;
+	font-size:.9em;
+	font-weight:bold;
+	border-collapse:collapse;
+	border:1px solid #cccccc;	
+}
+td.courseLabel {
+	color:rgb(58,102,156);
+	text-align:center;
+	font-size:.9em;
+	font-weight:bold;
+	width:2em;
+	border:1px solid #cccccc;
+	border-collapse:collapse;
+	background-color:#E4E4E4;
+}
+td.columnLabel {
+	font-size:.7em;
+	text-align:center;
+	font-weight:bold;
+	background-color:#E4E4E4;
+/*	border:1px solid #cccccc;
+	border-collapse:collapse; */
+}
+td.quarterLabel {
+	color:rgb(58,102,156);
+	text-align:center;
+	font-size:.7em;
+	font-weight:bold;
+	border:1px solid #cccccc;
+	border-collapse:collapse;
+	background-color:#E4E4E4;
+}
+.skillSubject {
+	text-align:left;
+	font-size:.9em;
+	font-style:italic;
+	font-weight:bold;
+	padding-left:.7em;
+	background-color:#E4E4E4;
+	border-collapse:collapse;
+}
+.skillName {
+	text-align:left;
+	font-size:.9em;
+	padding:.1em 1em;
+	border-collapse:collapse;
+}
+.skillGrade {
+	color:rgb(58,102,156);
+	text-align:center;
+	font-size:.9em;
+/*	border-collapse:collapse; */
+}
+.skillGrade_NA {
+	color:rgb(58,102,156);
+	text-align:center;
+	background-color:#e4e4ee;
+	font-size:.9em;
+	border-collapse:collapse;
+}
+td.attendanceRowLabel {
+	font-size:.8em;
+	text-align:left;
+	font-weight:bold;
+	padding:.3em;
+}
+td.attendanceNumber {
+	color:rgb(58,102,156);
+	text-align:center;
+	font-size:.8em;
+	min-width:30px;
+}
+.gradingKey {
+	border:0pt solid #cccccc;
+	border-collapse:collapse;
+	margin:2em .2em 0 .2em;
+	background-color:#f7f7f7;
+	width:48%;
+	float:right;
+}
+.keyTitle {
+	font-size:1em;
+	text-align:center;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+.keyColumnHeading {
+	text-align:center;
+	font-weight:bold;
+	font-size:.8em;
+	border:0;
+}
+.keyTable {
+	white-space: nowrap;
+	margin:auto
+}
+.keyItemLabel {
+	font-size:.8em;
+	text-align:left;
+	font-weight:bold;
+	padding: 2px;
+	border:0;
+}
+.keyItem {
+	font-size:.8em;
+	text-align:left;
+	font-style:italic;
+	border:0;
+}
+.graybg {
+	background-color:#E4E4E4;
+	border-collapse:collapse;
+}
+	
